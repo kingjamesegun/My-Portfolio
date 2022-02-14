@@ -1,0 +1,18 @@
+$black-color: #1f2228;
+$white: #fdfdfd;
+$roch : "Rochester";
+
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Rochester&display=swap');
+.nav {
+	background-color: $black-color;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 40px;
+    @media(max-width: "425px"){
+        padding:  20px;
+    }
+    .logo{
+        font-family: $roch;
+        font-size: 25px;
+    }
+}

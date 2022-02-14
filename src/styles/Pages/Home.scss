@@ -1,0 +1,43 @@
+$black-color: #1f2228;
+$white: #fdfdfd;
+
+.home {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 67vh;
+	align-content: center;
+	.home__name {
+		font-size: 144px;
+		font-family: 'Rochester';
+		@media (max-width: '425px') {
+			font-size: 90px;
+		}
+	}
+	.home__title{
+		font-family: "Roboto Serif";
+		margin-top: 10px;
+	}
+	.home__cv {
+		position: absolute;
+		right: 40px;
+		bottom: 30px;
+		padding: 10px 40px;
+		text-transform: uppercase;
+		font-weight: bold;
+		background-color: $white;
+		border: none;
+		border-radius: 3px;
+		a {
+			color: #1f2228;
+			text-decoration: none;
+		}
+		@media (max-width: '425px') {
+			padding: 10px 30px;
+			right: 20px;
+			bottom: 20px;
+		}
+	}
+	
+}

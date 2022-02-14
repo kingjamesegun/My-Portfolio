@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Rochester&display=swap");
+.nav {
+  background-color: #1f2228;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+@media (max-width: 425px) {
+  .nav {
+    padding: 20px;
+  }
+}
+.nav .logo {
+  font-family: "Rochester";
+  font-size: 25px;
+}/*# sourceMappingURL=nav.css.map */
