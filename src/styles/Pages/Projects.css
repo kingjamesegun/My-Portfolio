@@ -1,0 +1,72 @@
+.project {
+  padding: 8% 10%;
+  background-color: #1f2228;
+}
+@media (max-width: 768px) {
+  .project {
+    padding: 3% 5%;
+  }
+}
+.project .project__section {
+  margin-bottom: 15%;
+}
+.project .project__section .project__titleEven {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+  gap: 10px;
+}
+@media (max-width: 425px) {
+  .project .project__section .project__titleEven {
+    flex-direction: row;
+  }
+}
+.project .project__section .project__titleEven h3 {
+  font-size: 30px;
+  font-family: "Roboto";
+  font-weight: bold;
+  margin-right: 10px;
+}
+@media (max-width: 425px) {
+  .project .project__section .project__titleEven h3 {
+    font-size: 25px;
+  }
+}
+.project .project__section .project__titleEven div {
+  height: 2px;
+  width: 50%;
+  background-color: #c4c4c4;
+  font-size: 14px;
+}
+@media (max-width: 450px) {
+  .project .project__section .project__titleEven div {
+    width: 100px;
+  }
+}
+.project .project__section .project__title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.project .project__section .project__title h3 {
+  font-size: 30px;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+@media (max-width: 425px) {
+  .project .project__section .project__title h3 {
+    font-size: 25px;
+  }
+}
+.project .project__section .project__title div {
+  height: 2px;
+  width: 50%;
+  background-color: #c4c4c4;
+  font-size: 14px;
+}
+@media (max-width: 450px) {
+  .project .project__section .project__title div {
+    width: 100px;
+  }
+}/*# sourceMappingURL=Projects.css.map */

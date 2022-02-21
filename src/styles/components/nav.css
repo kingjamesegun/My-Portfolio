@@ -1,16 +1,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Comforter&family=Rochester&display=swap");
 .nav {
   background-color: #1f2228;
-  display: flex;
-  justify-content: space-between;
   padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  z-index: 999;
+  position: fixed;
+  width: 100%;
 }
 @media (max-width: 425px) {
   .nav {
     padding: 20px;
   }
 }
-.nav .logo {
+.nav .nav_main {
+  display: flex;
+  justify-content: space-between;
+}
+.nav .nav_main .logo {
   font-family: "Rochester";
   font-size: 25px;
+}
+.nav ul {
+  padding: 0px 15%;
+  list-style: none;
+  margin: 0;
+}
+.nav ul .nav_links {
+  text-decoration: none;
+}
+.nav ul .nav_links a {
+  color: #fdfdfd;
+  text-decoration: none;
+  font-family: "Rochester";
+  font-size: 82px;
+}
+.nav .nav__socials .socials {
+  display: flex;
+  justify-content: center;
+}
+.nav .nav__socials .socials .socials__link {
+  padding: 0 20px;
 }/*# sourceMappingURL=nav.css.map */

@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 67vh;
+  height: 100vh;
   align-content: center;
 }
 .home .home__name {
@@ -17,7 +17,7 @@
 }
 .home .home__title {
   font-family: "Roboto Serif";
-  margin-top: 10px;
+  margin-top: 0px;
 }
 .home .home__cv {
   position: absolute;

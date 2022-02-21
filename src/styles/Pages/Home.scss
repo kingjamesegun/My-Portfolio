@@ -6,7 +6,7 @@ $white: #fdfdfd;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 67vh;
+	height: 100vh;
 	align-content: center;
 	.home__name {
 		font-size: 144px;
@@ -17,7 +17,7 @@ $white: #fdfdfd;
 	}
 	.home__title{
 		font-family: "Roboto Serif";
-		margin-top: 10px;
+		margin-top: 0px;
 	}
 	.home__cv {
 		position: absolute;
