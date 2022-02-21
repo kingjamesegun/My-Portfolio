@@ -26,7 +26,7 @@ function Projects() {
 					tech4='React'
 					image={Portfolio}
 					liveLink='https://kingjamesegun.netlify.app/'
-					githubLink='https://github.com/kingjamesegun/My-Portfolio'
+					githubLink='https://github.com/kingjamesegun/My-Portfolio		'
 				/>
 			</div>
 
