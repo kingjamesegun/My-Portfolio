@@ -41,7 +41,7 @@ function ProjectsDetailsEven({
 					<li className='info__li'>{tech4}</li>
 				</ul>
 				<div className='project__link'>
-					<a href={liveLink} target="_blank">
+					<a href={liveLink} target="_blank" rel="noopener noreferrer">
 						<img src={LiveIcon} alt='Link' />
 					</a>
 				</div>
