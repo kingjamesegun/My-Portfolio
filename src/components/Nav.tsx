@@ -27,7 +27,7 @@ function Nav() {
 			</div>
 
 			{!menu ? (
-				<div>
+				<div style={{height: "100vh"}}>
 					<ul>
 						<li className='nav_links'>
 							<Link to='/' onClick={handleLinkClick}>
@@ -54,29 +54,49 @@ function Nav() {
 					<div className='nav__socials'>
 						<ul className='socials'>
 							<li className='socials__link'>
-								<Link to=''>
+								<a
+									href='https://github.com/kingjamesegun'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
 									<img src={GitHubIcon} alt='Github Link' />
-								</Link>
+								</a>
 							</li>
 							<li className='socials__link'>
-								<Link to=''>
+								<a
+									href='https://wa.me/message/ICR3VWZS7ACVM1'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
 									<img src={WhatsappIcon} alt='Whatsapp Link' />
-								</Link>
+								</a>
 							</li>
 							<li className='socials__link'>
-								<Link to=''>
+								<a
+									href='https://twitter.com/kingjamesegun'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
 									<img src={TwitterIcon} alt='Twitter Link' />
-								</Link>
+								</a>
 							</li>
 							<li className='socials__link'>
-								<Link to=''>
+								<a
+									href='https://www.instagram.com/kingjamesegun/'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
 									<img src={InstagrmIcon} alt='IG ink' />
-								</Link>
+								</a>
 							</li>
 							<li className='socials__link'>
-								<Link to=''>
+								<a
+									href='https://www.linkedin.com/in/james-okunola-65959519a/'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
 									<img src={LinkIcon} alt='Linkdin Link' />
-								</Link>
+								</a>
 							</li>
 						</ul>
 					</div>

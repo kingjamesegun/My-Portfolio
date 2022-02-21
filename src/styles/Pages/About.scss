@@ -2,9 +2,12 @@ $roboto: 'Roboto Serif';
 .about {
 	padding: 8% 10%;
     background-color: #1F2228;
-    @media(max-width:768px){
-        padding: 3% 5%;
-    }
+	@media (max-width: 768px) {
+		padding: 12% 5%;
+	}
+	@media (max-width: 425px) {
+		padding: 20% 5%;
+	}
 	.about__details {
 		font-family: $roboto;
 		.about__title {

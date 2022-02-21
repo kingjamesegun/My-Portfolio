@@ -4,7 +4,12 @@
 }
 @media (max-width: 768px) {
   .contact {
-    padding: 3% 5%;
+    padding: 12% 5%;
+  }
+}
+@media (max-width: 425px) {
+  .contact {
+    padding: 20% 5%;
   }
 }
 .contact .contact__title {

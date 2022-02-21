@@ -9,3 +9,14 @@
   color: #FDFDFD;
   font-size: 16px;
 }
+
+.loader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1F2228;
+}
+.loader__img{
+
+}

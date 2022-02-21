@@ -3,7 +3,10 @@ $roboto: 'Roboto Serif';
 	padding: 8% 10%;
 	background-color: #1f2228;
 	@media (max-width: 768px) {
-		padding: 3% 5%;
+		padding: 12% 5%;
+	}
+	@media (max-width: 425px) {
+		padding: 20% 5%;
 	}
 	.project__section {
 		margin-bottom: 15%;

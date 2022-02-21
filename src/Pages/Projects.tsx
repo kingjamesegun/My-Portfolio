@@ -25,8 +25,8 @@ function Projects() {
 					tech3='Tailwind CSS'
 					tech4='React'
 					image={Portfolio}
-					liveLink='https://61f4b0543fcef5000728203e--naughty-gates-8c831c.netlify.app/'
-					githubLink='https://github.com/kingjamesegun/QuizApp'
+					liveLink='https://kingjamesegun.netlify.app/'
+					githubLink='https://github.com/kingjamesegun/My-Portfolio'
 				/>
 			</div>
 

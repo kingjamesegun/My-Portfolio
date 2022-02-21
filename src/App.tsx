@@ -1,25 +1,37 @@
 import './App.css';
+import React, { lazy, Suspense } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Nav from './components/Nav';
-import Projects from './Pages/Projects';
 import { AnimatePresence } from 'framer-motion';
+import Loader from './assets/loaders.svg';
+
+
+const MyComp = lazy(()=> import('./Pages/Projects'));
 
 function App() {
 	return (
-		<div className='App'>
-			<AnimatePresence exitBeforeEnter>
-				<Nav />
-				<Routes>
-					<Route path='/' element={<Home />} />
-					<Route path='/about' element={<About />} />
-					<Route path='/contact' element={<Contact />} />
-					<Route path='/projects' element={<Projects />} />
-				</Routes>
-			</AnimatePresence>
-		</div>
+		<Suspense
+			fallback={
+				<div className='loader'>
+					<img src={Loader} alt='Loader' className='loader__img'/>
+				</div>
+			}
+		>
+			<div className='App'>
+				<AnimatePresence exitBeforeEnter>
+					<Nav />
+					<Routes>
+						<Route path='/' element={<Home />} />
+						<Route path='/about' element={<About />} />
+						<Route path='/contact' element={<Contact />} />
+						<Route path='/projects' element={<MyComp />} />
+					</Routes>
+				</AnimatePresence>
+			</div>
+		</Suspense>
 	);
 }
 

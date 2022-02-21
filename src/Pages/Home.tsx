@@ -1,5 +1,5 @@
 import '../styles/Pages/Home.css';
-import Cv from '../assets/cv.docx.pdf';
+import Cv from '../assets/cv.pdf';
 import { motion } from 'framer-motion';
 
 function Home() {
@@ -20,7 +20,7 @@ function Home() {
 				whileHover={{ scale: 1.1 }}
 				whileTap={{ scale: 0.9 }}
 			>
-				<a href={Cv} download='JamesOkunolaCV.pdf'>
+				<a href={Cv} download='JamesOluwasegunOKUNOLAcv.pdf'>
 					Download CV
 				</a>
 			</motion.button>

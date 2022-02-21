@@ -35,6 +35,11 @@
   font-family: "Rochester";
   font-size: 82px;
 }
+@media (max-width: 425px) {
+  .nav ul .nav_links a {
+    font-size: 60px;
+  }
+}
 .nav .nav__socials .socials {
   display: flex;
   justify-content: center;

@@ -35,6 +35,9 @@ $roch: 'Rochester';
                 text-decoration: none;
                 font-family: $roch;
                 font-size: 82px;
+				@media(max-width:425px){
+					font-size: 60px;
+				}
             }
 		}
 	}

@@ -4,7 +4,12 @@
 }
 @media (max-width: 768px) {
   .project {
-    padding: 3% 5%;
+    padding: 12% 5%;
+  }
+}
+@media (max-width: 425px) {
+  .project {
+    padding: 20% 5%;
   }
 }
 .project .project__section {
