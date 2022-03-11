@@ -60,7 +60,7 @@ function Projects() {
 					tech3='TypeScript'
 					tech4='React'
 					image={Orit}
-					liveLink='https://61f4b0543fcef5000728203e--naughty-gates-8c831c.netlify.app/'
+					liveLink='https://oritiq.netlify.app/'
 					githubLink='https://github.com/kingjamesegun/QuizApp'
 				/>
 			</div>
@@ -96,7 +96,7 @@ function Projects() {
 					tech3='Tailwind CSS'
 					tech4='React'
 					image={Trakkker}
-					liveLink='https://affectionate-goldwasser-b25532.netlify.app/'
+					liveLink='https://trakkker.netlify.app/'
 					githubLink='https://github.com/kingjamesegun/Trakkkr.git'
 				/>
 			</div>

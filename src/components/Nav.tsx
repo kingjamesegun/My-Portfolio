@@ -28,7 +28,7 @@ function Nav() {
 
 			{!menu ? (
 				<div style={{height: "100vh"}}>
-					<ul>
+					<ul className='nav_ul'>
 						<li className='nav_links'>
 							<Link to='/' onClick={handleLinkClick}>
 								Home

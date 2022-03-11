@@ -21,28 +21,33 @@
   font-family: "Rochester";
   font-size: 25px;
 }
-.nav ul {
+.nav .nav_ul {
   padding: 0px 15%;
   list-style: none;
   margin: 0;
 }
-.nav ul .nav_links {
+.nav .nav_ul .nav_links {
   text-decoration: none;
+  text-align: center;
 }
-.nav ul .nav_links a {
+.nav .nav_ul .nav_links a {
   color: #fdfdfd;
   text-decoration: none;
   font-family: "Rochester";
   font-size: 82px;
 }
 @media (max-width: 425px) {
-  .nav ul .nav_links a {
+  .nav .nav_ul .nav_links a {
     font-size: 60px;
   }
+}
+.nav .nav_ul .nav_links a:active {
+  color: #666666;
 }
 .nav .nav__socials .socials {
   display: flex;
   justify-content: center;
+  list-style: none;
 }
 .nav .nav__socials .socials .socials__link {
   padding: 0 20px;

@@ -22,22 +22,27 @@ $roch: 'Rochester';
 			font-size: 25px;
 		}
 	}
-	ul {
+	.nav_ul{
 		padding: 0px 15%;
 		list-style: none;
 		margin: 0;
 
 		.nav_links {
             text-decoration: none;
+			text-align: center;
             a{
 
-                color:#fdfdfd;
+                color: #fdfdfd;
                 text-decoration: none;
                 font-family: $roch;
                 font-size: 82px;
 				@media(max-width:425px){
 					font-size: 60px;
 				}
+				&:active{
+					color: #666666
+				}
+
             }
 		}
 	}
@@ -45,8 +50,10 @@ $roch: 'Rochester';
 		.socials{
 			display: flex;
 			justify-content: center;
+			list-style: none;
 			.socials__link{
 				padding: 0 20px;
+
 			}
 		}
 	}
