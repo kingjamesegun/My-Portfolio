@@ -2,7 +2,6 @@ import '../styles/components/ProjectsDetails.css';
 import GithubIcon from '../assets/gitlink.svg';
 import LiveIcon from '../assets/go.svg';
 import { LazyMotion, domAnimation, m } from 'framer-motion';
-import { Link } from 'react-router-dom';
 
 interface Props {
 	category: string;
