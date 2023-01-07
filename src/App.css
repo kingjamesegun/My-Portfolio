@@ -1,22 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Rochester&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Rochester&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-.App{
-  background-color: #1F2228;
-  height: 100vh;
-  color: #FDFDFD;
-  font-size: 16px;
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700;900&display=swap");
+.App {
+	background-color: #000;
+	height: 100vh;
+	color: #fdfdfd;
+	font-size: 16px;
 }
 
-.loader{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #1F2228;
+.loader {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #1f2228;
 }
-.loader__img{
-
+.loader__img {
 }

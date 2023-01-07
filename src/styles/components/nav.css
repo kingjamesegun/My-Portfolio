@@ -1,54 +1,97 @@
 @import url("https://fonts.googleapis.com/css2?family=Comforter&family=Rochester&display=swap");
 .nav {
-  background-color: #1f2228;
-  padding: 20px 40px;
-  display: flex;
-  flex-direction: column;
-  z-index: 999;
-  position: fixed;
-  width: 100%;
+	background-color: #000000;
+	padding: 20px 40px;
+	display: flex;
+	flex-direction: column;
+	z-index: 999;
+	position: fixed;
+	width: 100%;
 }
 @media (max-width: 425px) {
-  .nav {
-    padding: 20px;
-  }
+	.nav {
+		padding: 20px;
+	}
 }
 .nav .nav_main {
-  display: flex;
-  justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 .nav .nav_main .logo {
-  font-family: "Rochester";
-  font-size: 25px;
+	font-family: "Fira Sans";
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #f4bd03;
 }
 .nav .nav_ul {
-  padding: 0px 15%;
-  list-style: none;
-  margin: 0;
+	padding: 0px 15%;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	gap: 100px;
+	justify-content: space-between;
+	align-items: center;
 }
 .nav .nav_ul .nav_links {
-  text-decoration: none;
-  text-align: center;
+	text-decoration: none;
+	text-align: left;
+	width: 40%;
+	margin: auto;
 }
 .nav .nav_ul .nav_links a {
-  color: #fdfdfd;
-  text-decoration: none;
-  font-family: "Rochester";
-  font-size: 82px;
+	color: #fdfdfd;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	font-family: "Fira Sans";
+	font-size: 40px;
+	text-transform: uppercase;
+}
+.links__num {
+	color: gray;
+	font-size: 30px;
+	margin-right: 30px;
+	/* writing-mode: vertical-lr; */
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	-webkit-transform-origin: 50% 50%;
+	-moz-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	-o-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+}
+.nav__btm {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: small;
+	font-family: "Fira Sans";
+	font-weight: 600;
+	position: absolute;
+	bottom: 10%;
+	width: 100%;
+	left: 0;
+	text-transform: uppercase;
+}
+.yellow {
+	color: #f4bd03;
 }
 @media (max-width: 425px) {
-  .nav .nav_ul .nav_links a {
-    font-size: 60px;
-  }
+	.nav .nav_ul .nav_links a {
+		font-size: 60px;
+	}
 }
 .nav .nav_ul .nav_links a:active {
-  color: #666666;
+	color: #666666;
 }
 .nav .nav__socials .socials {
-  display: flex;
-  justify-content: center;
-  list-style: none;
+	display: flex;
+	justify-content: center;
+	list-style: none;
 }
 .nav .nav__socials .socials .socials__link {
-  padding: 0 20px;
-}/*# sourceMappingURL=nav.css.map */
+	padding: 0 20px;
+} /*# sourceMappingURL=nav.css.map */

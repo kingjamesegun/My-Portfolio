@@ -1,98 +1,98 @@
 .about {
-  padding: 8% 10%;
-  background-color: #1F2228;
+	padding: 8% 10%;
+	background-color: #000;
 }
 @media (max-width: 768px) {
-  .about {
-    padding: 12% 5%;
-  }
+	.about {
+		padding: 12% 5%;
+	}
 }
 @media (max-width: 425px) {
-  .about {
-    padding: 23% 5%;
-  }
+	.about {
+		padding: 23% 5%;
+	}
 }
 .about .about__details {
-  font-family: "Roboto Serif";
+	font-family: "Roboto Serif";
 }
 .about .about__details .about__title {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 .about .about__details .about__title h3 {
-  font-size: 30px;
-  font-family: "Roboto";
-  font-weight: bold;
-  margin-right: 10px;
+	font-size: 30px;
+	font-family: "Roboto";
+	font-weight: bold;
+	margin-right: 10px;
 }
 .about .about__details .about__title div {
-  height: 2px;
-  width: 50%;
-  background-color: #c4c4c4;
-  font-size: 14px;
+	height: 2px;
+	width: 50%;
+	background-color: #c4c4c4;
+	font-size: 14px;
 }
 @media (max-width: 450px) {
-  .about .about__details .about__title div {
-    width: 200px;
-  }
+	.about .about__details .about__title div {
+		width: 200px;
+	}
 }
 .about .about__details .about__p {
-  font-family: "Roboto";
-  font-size: 20px;
-  margin-top: 30px;
+	font-family: "Roboto";
+	font-size: 20px;
+	margin-top: 30px;
 }
 @media (max-width: 1024px) {
-  .about .about__details .about__p {
-    margin-top: 20px;
-    font-size: 16px;
-  }
+	.about .about__details .about__p {
+		margin-top: 20px;
+		font-size: 16px;
+	}
 }
 @media (max-width: 768px) {
-  .about .about__details .about__p {
-    margin-top: 15px;
-    font-size: 14px;
-  }
+	.about .about__details .about__p {
+		margin-top: 15px;
+		font-size: 14px;
+	}
 }
 .about .about__details .about__motto {
-  font-size: 90px;
-  font-family: "Roboto";
-  font-weight: bold;
-  margin-top: 80px;
+	font-size: 90px;
+	font-family: "Roboto";
+	font-weight: bold;
+	margin-top: 80px;
 }
 @media (max-width: 1024px) {
-  .about .about__details .about__motto {
-    font-size: 70px;
-    margin-top: 30px;
-  }
+	.about .about__details .about__motto {
+		font-size: 70px;
+		margin-top: 30px;
+	}
 }
 @media (max-width: 768px) {
-  .about .about__details .about__motto {
-    font-size: 50px;
-    margin-top: 30px;
-  }
+	.about .about__details .about__motto {
+		font-size: 50px;
+		margin-top: 30px;
+	}
 }
 @media (max-width: 425px) {
-  .about .about__details .about__motto {
-    font-size: 50px;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    text-align: center;
-  }
+	.about .about__details .about__motto {
+		font-size: 50px;
+		margin-bottom: 50px;
+		margin-top: 50px;
+		text-align: center;
+	}
 }
 .about .about_image .image__large {
-  width: 100%;
+	width: 100%;
 }
 @media (max-width: 425px) {
-  .about .about_image .image__large {
-    display: none;
-  }
+	.about .about_image .image__large {
+		display: none;
+	}
 }
 .about .about_image .image__small {
-  display: none;
+	display: none;
 }
 @media (max-width: 425px) {
-  .about .about_image .image__small {
-    display: block;
-    margin: auto;
-  }
-}/*# sourceMappingURL=About.css.map */
+	.about .about_image .image__small {
+		display: block;
+		margin: auto;
+	}
+} /*# sourceMappingURL=About.css.map */
