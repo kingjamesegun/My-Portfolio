@@ -1,7 +1,6 @@
-import '../styles/components/ProjectsDetails.css';
-import GithubIcon from '../assets/gitlink.svg';
-import LiveIcon from '../assets/go.svg';
-import { LazyMotion, domAnimation, m } from 'framer-motion';
+import "../styles/components/ProjectsDetails.css";
+import GithubIcon from "../assets/gitlink.svg";
+import { LazyMotion, domAnimation, m } from "framer-motion";
 
 interface Props {
 	category: string;
@@ -12,7 +11,7 @@ interface Props {
 	tech4: string;
 	image: string;
 	liveLink: string;
-	githubLink: string;
+	githubLink?: string;
 }
 
 const ProjectsDetails = ({
@@ -27,29 +26,40 @@ const ProjectsDetails = ({
 	githubLink,
 }: Props) => {
 	return (
-		<div className='project__details'>
+		<div className="project__details">
 			<LazyMotion features={domAnimation}>
-				<m.div animate={{ opacity: 1 }} className='project__image'>
-					<a href={liveLink} target='_blank' rel='noopener noreferrer'>
-						<img src={image} alt='portfolio_pics' style={{ width: '100%' }} />
-						<div className='image__overlay'></div></a>
+				<m.div animate={{ opacity: 1 }} className="project__image">
+					<a href={liveLink} target="_blank" rel="noopener noreferrer">
+						<img src={image} alt="portfolio_pics" style={{ width: "100%" }} />
+						<div className="image__overlay"></div>
+					</a>
 				</m.div>
 			</LazyMotion>
-			<div className='project__info'>
-				<h3 className='info__h3'>{category}</h3>
-				<p className='info__p'>{desc}</p>
+			<div className="project__info">
+				<h3 className="info__h3">{category}</h3>
+				<p className="info__p">{desc}</p>
 				<ul>
-					<li className='info__li'>{tech1}</li>
-					<li className='info__li'>{tech2}</li>
-					<li className='info__li'>{tech3}</li>
-					<li className='info__li'>{tech4}</li>
+					<li className="info__li">{tech1}</li>
+					<li className="info__li">{tech2}</li>
+					<li className="info__li">{tech3}</li>
+					<li className="info__li">{tech4}</li>
 				</ul>
-				<div className='project__link'>
-					<a href={githubLink} target='_blank' rel='noopener noreferrer'>
-						<img src={GithubIcon} alt='Link' />
+				<div className="project__link">
+					<a
+						href={githubLink}
+						target="_blank"
+						rel="noopener noreferrer"
+						className="casestudy__link"
+					>
+						<img src={GithubIcon} alt="Link" />
 					</a>
-					<a href={liveLink} target='_blank' rel='noopener noreferrer'>
-						<img src={LiveIcon} alt='Link' />
+					<a
+						href={liveLink}
+						target="_blank"
+						rel="noopener noreferrer"
+						className="casestudy__link"
+					>
+						View CaseStudy
 					</a>
 				</div>
 			</div>
