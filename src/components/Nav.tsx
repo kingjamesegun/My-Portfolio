@@ -20,7 +20,7 @@ function Nav() {
 	return (
 		<div className="nav">
 			<div className="nav_main">
-				<div className="logo">Kings</div>
+				<div className="logo">Xplore</div>
 				<div className="nav__menu">
 					<img src={MenuIcon} alt="Menu" onClick={handleMenuClick} />
 				</div>

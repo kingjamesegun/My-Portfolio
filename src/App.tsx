@@ -7,6 +7,7 @@ import Contact from "./Pages/Contact";
 import Nav from "./components/Nav";
 import Loader from "./assets/loaders.svg";
 import ProjectsUpdated from "./Pages/ProjectsUpdated";
+import CaseStudy from "./Pages/CaseStudy";
 
 function App() {
 	return (
@@ -24,6 +25,7 @@ function App() {
 					<Route path="/about" element={<About />} />
 					<Route path="/contact" element={<Contact />} />
 					<Route path="/projects" element={<ProjectsUpdated />} />
+					<Route path="/case-study" element={<CaseStudy />} />
 				</Routes>
 			</div>
 		</Suspense>

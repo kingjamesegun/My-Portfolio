@@ -44,5 +44,9 @@
 			"last 1 firefox version",
 			"last 1 safari version"
 		]
+	},
+	"devDependencies": {
+		"tailwindcss": "^3.2.7",
+		"tailwindcss-text-fill-stroke": "^1.1.2"
 	}
 }
