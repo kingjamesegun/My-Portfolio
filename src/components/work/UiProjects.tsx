@@ -3,7 +3,6 @@ import ProjectsDetails from "../../components/ProjectsDetails";
 import ProjectsDetailsEven from "../../components/ProjectsDetailsEven";
 import "../../styles/Pages/Projects.css";
 import SteerImage from "../../assets/steereducation.png";
-import AltdeckImage from "../../assets/altdeck.png";
 import FashionImage from "../../assets/fashion.jpg";
 import MotoImage from "../../assets/betmoto.jpg";
 

@@ -2,7 +2,6 @@ import React from "react";
 import ProjectsDetails from "../../components/ProjectsDetails";
 import ProjectsDetailsEven from "../../components/ProjectsDetailsEven";
 import "../../styles/Pages/Projects.css";
-import Portfolio from "../../assets/portfolio.jpg";
 import Orit from "../../assets/orit.png";
 import Trakkker from "../../assets/trakkker.png";
 import RcPrintsImage from "../../assets/rcprint.png";
